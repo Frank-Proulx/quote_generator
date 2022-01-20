@@ -1,0 +1,10 @@
+
+
+<%= form_for :api_quote, :url => { :action => "create" } do |form| %>
+  <br><%= form.label :author, "Author" %>
+  <%= form.text_field :author %>
+  <br><%= form.label :content, "Quote" %>
+  <%= form.text_field :content %>
+  <br><%= form.submit  %>
+<% end  %>
+

@@ -1,0 +1,6 @@
+<h3>All the quotes:</h3>
+<ul>
+  <% @all_quotes.each do |quote| %>
+    <li> <q><%= quote['content'] %></q> - <%= quote['author'] %></li>
+  <% end %>
+</ul>

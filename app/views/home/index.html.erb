@@ -1,0 +1,8 @@
+<h1>Welcome to Quotes Generator</h1>
+<h3>Random Quote for You:</h3>
+<q><%= @random_quote['content'] %></q> - <%= @random_quote['author'] %>
+
+
+<p><%= link_to "Add a quote here!", new_quote_path %></p>
+
+<p><%= link_to "View all quotes", quotes_path %></p>
